@@ -19,9 +19,11 @@ var html = '<div class="accordionCtn" style="min-height: 192px;min-width: 980px;
 '                    while sensitively balancing ad load for monetization and ads...'+
 '                </span>                   '+
 '            </span> '+
-'            <i class="fa fa-angle-down" style="margin: 1.2% 0 0 2.5%;font-size: 21px;"></i>        '+
+'            <i id="arrowDown" class="fa fa-angle-down" style="margin: 1.2% 0 0 2.5%;font-size: 21px;"></i>        '+
+'            <i id="arrowUp" class="fa fa-angle-up" style="margin: 1.2% 0 0 2.5%;font-size: 21px;"></i>        '+
 '        </div>'+
-'        <div id="panel" style="display: none;">'+
+'        <div id="panel" style="display: none;width: 92%;border-color: rgba(51,51,51,0.2) !important;text-align: left!important;direction: ltr;padding: 4px 0 15px 47px;'+
+'        font: normal normal bold 18px/22px poppins-extralight,poppins,sans-serif;line-height: 1.2em;font-size: 18px;color: rgba(0,0,0,1);">'+
 '            <span style="display: flex; flex-flow: column">'+
 '                SelectMedia offers innovative formats coupled with quality ad-fill from top - demand sources to '+
 '                <span>help you monetize effectively without alienating your viewers.</span> '+
@@ -32,7 +34,7 @@ var html = '<div class="accordionCtn" style="min-height: 192px;min-width: 980px;
 '        </div>'+
 '        <div style="border-bottom: 1px solid lightgray;padding: 3px;width: 91%;margin-left: calc((100% - 899px) * 0.5);/* margin-left: 4%; */"></div>'+
 '    </div>'+
-'    <div class="videosPrototypesCtn" style="text-align: center; position: absolute; display: flex; flex-flow:  column; width: 100%;top: 22%;">'+
+'    <div id="videosPrototypesCtn" class="videosPrototypesCtn" style="text-align: center; position: absolute; display: flex; flex-flow:  column; width: 100%;top:23%;">'+
 '        <h2 style="margin: 2% 0; font: normal normal bold 41px/51px poppins-semibold,poppins,sans-serif;color: rgba(48,48,48,1);">Our Video Solution</h2>'+
 '        <div class="videosPrototypesFlex" style="display: flex;flex-wrap: wrap;width: 50%;height: auto;margin: 0 25%;">'+
 '            <div class="videoPrototype" style="flex: 0 33.33333333%;">'+
@@ -81,14 +83,21 @@ var html = '<div class="accordionCtn" style="min-height: 192px;min-width: 980px;
 '    </div>';
 	
 
-    
-
 formHeader.insertAdjacentHTML('beforebegin', html);
 
-document.getElementById("comp-jiudr4qr").setAttribute('style', 'left: 33px;width: 746px;position: absolute;margin-left: calc((100% - 980px) * 0.5);top: 850px;');
-document.getElementById("comp-jitywdkn").setAttribute('style', 'left: 1px; width: 882px; position: absolute; margin-left: calc((100% - 980px) * 0.5); top: 890px; height: 684px;');
-document.getElementById("SITE_FOOTERinlineContent").setAttribute('style', 'top:630px;');
+var formContent = document.getElementById("comp-jitywdkn");
+var footer = document.getElementById("SITE_FOOTERinlineContent");
+var arrowUp = document.getElementById('arrowUp');
+var arrowDown = document.getElementById("arrowDown");
+var accordionPanel = document.getElementById("panel");
+var videosPrototypesCtn = document.getElementById('videosPrototypesCtn');
+
 document.getElementById('comp-jjsesgf6').setAttribute('style', 'display: none;');
+formHeader.setAttribute('style', 'left: 33px;width: 746px;position: absolute;margin-left: calc((100% - 980px) * 0.5);top:788px;');
+formContent.setAttribute('style', 'left: 1px; width: 882px; position: absolute; margin-left: calc((100% - 980px) * 0.5); top: 823px; height: 684px;');
+footer.setAttribute('style', 'position: absolute;top:545px;');
+arrowUp.setAttribute('style', 'display: none;');
+
 
 var isAccordionOpen = false;
 
@@ -96,12 +105,21 @@ function toggleAccordion() {
     isAccordionOpen = !isAccordionOpen;
 
     if(isAccordionOpen) {
-        document.getElementById("panel").setAttribute('style', 'display:block;')
+        accordionPanel.setAttribute('style', 'display:block;order-color: rgba(51,51,51,0.2) !important;text-align: left!important;direction: ltr;padding: 4px 0 15px 47px;font: normal normal bold 18px/22px poppins-extralight,poppins,sans-serif;line-height: 1.2em;font-size: 18px;color: rgba(0,0,0,1);');
+        arrowUp.setAttribute('style', 'display:block;margin: 1.2% 0 0 2.5%;font-size: 21px;');
+        arrowDown.setAttribute('style', 'display:none;margin: 1.2% 0 0 2.5%;font-size: 21px;');
+        videosPrototypesCtn.setAttribute('style', 'text-align: center; position: absolute; display: flex; flex-flow:  column; width: 100%;top: 37%;')
+        formHeader.setAttribute('style', 'left: 33px;width: 746px;position: absolute;margin-left: calc((100% - 980px) * 0.5);top: 920px;');
+        formContent.setAttribute('style', 'left: 1px; width: 882px; position: absolute; margin-left: calc((100% - 980px) * 0.5); top: 955px; height: 684px;');
+        footer.setAttribute('style', 'position: absolute; top:690px;');
 
     } else {
-        document.getElementById("panel").setAttribute('style', 'display:none;')
-        document.getElementById("comp-jiudr4qr").setAttribute('style', 'left: 33px;width: 746px;position: absolute;margin-left: calc((100% - 980px) * 0.5);top: 850px;');
-        document.getElementById("comp-jitywdkn").setAttribute('style', 'left: 1px; width: 882px; position: absolute; margin-left: calc((100% - 980px) * 0.5); top: 890px; height: 684px;');
-        document.getElementById("SITE_FOOTERinlineContent").setAttribute('style', 'top:630px;'); 
+        accordionPanel.setAttribute('style', 'display:none;')
+        arrowUp.setAttribute('style', 'display:none;margin: 1.2% 0 0 2.5%;font-size: 21px;');
+        arrowDown.setAttribute('style', 'display:block;margin: 1.2% 0 0 2.5%;font-size: 21px;');
+        formHeader.setAttribute('style', 'left: 33px;width: 746px;position: absolute;margin-left: calc((100% - 980px) * 0.5);top:788px;');
+        formContent.setAttribute('style', 'left: 1px; width: 882px; position: absolute; margin-left: calc((100% - 980px) * 0.5); top:823px; height: 684px;');
+        footer.setAttribute('style', 'position: absolute;top:545px;'); 
+        videosPrototypesCtn.setAttribute('style', 'text-align: center; position: absolute; display: flex; flex-flow:  column; width: 100%;top: 23%;');
     }
 }
