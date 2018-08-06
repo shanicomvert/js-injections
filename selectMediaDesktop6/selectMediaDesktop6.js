@@ -66,9 +66,9 @@ var secondAccordionPanel = document.getElementById("secondPanel");
 var formContent = document.getElementById("comp-jitywdkn");
 var secondAccordionCtn = document.getElementById('secondAccordionCtn');
 
-formHeaderCtn.style.top = '430px';
-formContent.style.top = '463px';
-footer.style.top = '205px';
+formHeaderCtn.style.top = '458px';
+formContent.style.top = '497px';
+footer.style.top = '260px';
 document.getElementById('comp-jjsesgf6').style.display = 'none';
 
 var isFirstAccordionOpen = false;
@@ -95,16 +95,24 @@ function toggleAccordion(accordion) {
             arrowUp.style.display = 'block';
             arrowDown.style.display = 'none';
             secondAccordionCtn.style.top = '313px';
-            formHeaderCtn.style.top = '565px';
-            formContent.style.top = '601px';
-            footer.style.top = '350px';
+            formHeaderCtn.style.top = '575px';
+            formContent.style.top = '611px';
+            footer.style.top = '360px';
+            secondArrowUp.style.display = 'none';
+            secondAccordionPanel.style.display = 'none';
+            secondArrowDown.style.display = 'block';
        } else{
             secondAccordionPanel.style.display = 'block';
+             secondAccordionCtn.style.top = '186px';
+            accordionPanel.style.display = 'none';
             secondArrowUp.style.display = 'block';
             secondArrowDown.style.display = 'none';
-            formHeaderCtn.style.top = '490px';
-            formContent.style.top = '527px';
-            footer.style.top = '270px';
+            formHeaderCtn.style.top = '510px';
+            formContent.style.top = '547px';
+            footer.style.top = '290px';
+            accordionPanel.style.display = 'none';
+            arrowUp.style.display = 'none';
+            arrowDown.style.display = 'block';
        }
      
     } else {
@@ -114,9 +122,9 @@ function toggleAccordion(accordion) {
         secondAccordionPanel.style.display = 'none';
         secondArrowUp.style.display = 'none';
         secondArrowDown.style.display = 'block';
-        formHeaderCtn.style.top = '430px';
-        formContent.style.top = '463px';
-        footer.style.top = '205px';
+        formHeaderCtn.style.top = '458px';
+        formContent.style.top = '497px';
+        footer.style.top = '260px';
         secondAccordionCtn.style.top = '186px';
     }
 }
