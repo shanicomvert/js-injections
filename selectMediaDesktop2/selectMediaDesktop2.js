@@ -102,7 +102,7 @@ arrowUp.setAttribute('style', 'display: none;');
 
 var isAccordionOpen = false;
 
-function toggleAccordion() {
+window.toggleAccordion = function() {
     isAccordionOpen = !isAccordionOpen;
 
     if(isAccordionOpen) {

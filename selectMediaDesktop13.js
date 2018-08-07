@@ -40,15 +40,15 @@ var html = '<div class="accordionCtn" style="min-height: 192px;min-width: 980px;
 '        padding: 0 0 15px 47px; font: normal normal bold 18px/22px poppins-extralight,poppins,sans-serif;line-height: 1.2em;font-size: 18px;color: rgba(0,0,0,1);"'+
 '        onclick="toggleAccordion(\'second\');">'+
 '            <span style="display: flex; flex-flow: column">'+
-'               <h2 style="padding-bottom: 10px;overflow: hidden; text-overflow: ellipsis; -webkit-box-orient: vertical; display: -webkit-box; -webkit-line-clamp: 3;font: normal normal bold 41px/51px poppins-semibold,poppins,sans-serif;color: rgba(48,48,48,1);">What makes Selectmedia the best solution for you?</h2>'+
-'               <span>Our Video SSP is designed to provide the publisher with the all the required tools in one </br> centralized solution: a state-of-the-art video player, automatic Yield Optimization, CDN to host the video ad files (if needed) and Ad Server to manage the ads and maximize yield...</span>'+
+'               <h2 style="padding-bottom: 10px;overflow: hidden; text-overflow: ellipsis; -webkit-box-orient: vertical; display: -webkit-box; -webkit-line-clamp: 3;font: normal normal bold 41px/51px poppins-semibold,poppins,sans-serif;color: rgba(48,48,48,1);">Learn more about technology</h2>'+
+'               <span>The technology powering our mobile growth and full - stack video platform is what sets SelectMedia apart...</span>'+
 '            </span> '+
 '            <i id="secondArrowDown" class="fa fa-angle-down" style="margin: 3.5% 0 0 2.5%;font-size: 21px;"></i>        '+
 '            <i id="secondArrowUp" class="fa fa-angle-up" style="display:none;margin: 3.5% 0 0 2.5%;font-size: 21px;"></i>        '+
 '        </div>'+
 '        <div id="secondPanel" style="display: none;width: 92%;border-color: rgba(51,51,51,0.2) !important;text-align: left!important;direction: ltr;padding: 0 0 15px 47px;'+
 '        font: normal normal bold 18px/22px poppins-extralight,poppins,sans-serif;line-height: 1.2em;font-size: 18px;color: rgba(0,0,0,1);">'+
-'                Optimization, CDN to host the video ad files (if needed) and Ad Server to manage the ads and maximize yield.'+
+'               Our custom technology stack is optimized from the ground up for video and mobile, applying a sophisticated set of analytical tools and predictive algorithms to target, deliver and optimize every impression with extreme precision.'+
 '        </div>'+
 '        <div style="border-bottom: 1px solid lightgray;padding: 3px;width: 91%;margin-left: calc((100% - 899px) * 0.5);/* margin-left: 4%; */"></div>'+
 '    </div>';
@@ -66,15 +66,15 @@ var secondAccordionPanel = document.getElementById("secondPanel");
 var formContent = document.getElementById("comp-jitywdkn");
 var secondAccordionCtn = document.getElementById('secondAccordionCtn');
 
-formHeaderCtn.style.top = '458px';
-formContent.style.top = '497px';
-footer.style.top = '260px';
+formHeaderCtn.style.top = '380px';
+formContent.style.top = '412px';
+footer.style.top = '190px';
 document.getElementById('comp-jjsesgf6').style.display = 'none';
 
 var isFirstAccordionOpen = false;
 var isSecondAccordionOpen = false;
 
-function toggleAccordion(accordion) {
+window.toggleAccordion = function(accordion) {
     accordion == 'first' ? isFirstAccordionOpen = !isFirstAccordionOpen : isSecondAccordionOpen = !isSecondAccordionOpen;
 
     if(isFirstAccordionOpen && isSecondAccordionOpen) {
@@ -84,8 +84,8 @@ function toggleAccordion(accordion) {
         secondAccordionPanel.style.display = 'block';
         secondArrowUp.style.display = 'block';
         secondArrowDown.style.display = 'none';
-        formHeaderCtn.style.top = '625px';
-        formContent.style.top = '660px';
+        formHeaderCtn.style.top = '595px';
+        formContent.style.top = '630px';
         footer.style.top = '400px';
         secondAccordionCtn.style.top = '314px';
 
@@ -95,9 +95,9 @@ function toggleAccordion(accordion) {
             arrowUp.style.display = 'block';
             arrowDown.style.display = 'none';
             secondAccordionCtn.style.top = '313px';
-            formHeaderCtn.style.top = '575px';
-            formContent.style.top = '611px';
-            footer.style.top = '360px';
+            formHeaderCtn.style.top = '508px';
+            formContent.style.top = '540px';
+            footer.style.top = '308px';
             secondArrowUp.style.display = 'none';
             secondAccordionPanel.style.display = 'none';
             secondArrowDown.style.display = 'block';
@@ -107,9 +107,9 @@ function toggleAccordion(accordion) {
             accordionPanel.style.display = 'none';
             secondArrowUp.style.display = 'block';
             secondArrowDown.style.display = 'none';
-            formHeaderCtn.style.top = '510px';
-            formContent.style.top = '547px';
-            footer.style.top = '290px';
+            formHeaderCtn.style.top = '460px';
+            formContent.style.top = '495px';
+            footer.style.top = '270px';
             accordionPanel.style.display = 'none';
             arrowUp.style.display = 'none';
             arrowDown.style.display = 'block';
@@ -122,9 +122,9 @@ function toggleAccordion(accordion) {
         secondAccordionPanel.style.display = 'none';
         secondArrowUp.style.display = 'none';
         secondArrowDown.style.display = 'block';
-        formHeaderCtn.style.top = '458px';
-        formContent.style.top = '497px';
-        footer.style.top = '260px';
+        formHeaderCtn.style.top = '380px';
+        formContent.style.top = '412px';
+        footer.style.top = '190px';
         secondAccordionCtn.style.top = '186px';
     }
 }

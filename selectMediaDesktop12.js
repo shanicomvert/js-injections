@@ -40,15 +40,15 @@ var html = '<div class="accordionCtn" style="min-height: 192px;min-width: 980px;
 '        padding: 0 0 15px 47px; font: normal normal bold 18px/22px poppins-extralight,poppins,sans-serif;line-height: 1.2em;font-size: 18px;color: rgba(0,0,0,1);"'+
 '        onclick="toggleAccordion(\'second\');">'+
 '            <span style="display: flex; flex-flow: column">'+
-'               <h2 style="padding-bottom: 10px;overflow: hidden; text-overflow: ellipsis; -webkit-box-orient: vertical; display: -webkit-box; -webkit-line-clamp: 3;font: normal normal bold 41px/51px poppins-semibold,poppins,sans-serif;color: rgba(48,48,48,1);">Your trusted partner</h2>'+
-'               <span>SelectMedia works directly with some of the world&apos;s largest publishers. We value each client and We offer a full stack video solution and committed to your success...</span>'+
+'               <h2 style="padding-bottom: 10px;overflow: hidden; text-overflow: ellipsis; -webkit-box-orient: vertical; display: -webkit-box; -webkit-line-clamp: 3;font: normal normal bold 41px/51px poppins-semibold,poppins,sans-serif;color: rgba(48,48,48,1);">Learn more about Outstream solutions</h2>'+
+'               <span>SelectMedia offers a complete video advertising SSP solution which will enable advertisers to monitor campaigns and their yields in terms of effective campaign - per - mille impressions...</span>'+
 '            </span> '+
 '            <i id="secondArrowDown" class="fa fa-angle-down" style="margin: 3.5% 0 0 2.5%;font-size: 21px;"></i>        '+
 '            <i id="secondArrowUp" class="fa fa-angle-up" style="display:none;margin: 3.5% 0 0 2.5%;font-size: 21px;"></i>        '+
 '        </div>'+
 '        <div id="secondPanel" style="display: none;width: 92%;border-color: rgba(51,51,51,0.2) !important;text-align: left!important;direction: ltr;padding: 0 0 15px 47px;'+
 '        font: normal normal bold 18px/22px poppins-extralight,poppins,sans-serif;line-height: 1.2em;font-size: 18px;color: rgba(0,0,0,1);">'+
-'              As one of the leading video solutions in Southeast Asia, we leverage our local presence to take good care of our customers and helping them achiving their goals'+
+'               SelectMedia’s interface dashboard has an influential real - time platform which allows users to monitor their impact levels across different platforms and campaigns all from one central location.'+
 '        </div>'+
 '        <div style="border-bottom: 1px solid lightgray;padding: 3px;width: 91%;margin-left: calc((100% - 899px) * 0.5);/* margin-left: 4%; */"></div>'+
 '    </div>';
@@ -67,14 +67,14 @@ var formContent = document.getElementById("comp-jitywdkn");
 var secondAccordionCtn = document.getElementById('secondAccordionCtn');
 
 formHeaderCtn.style.top = '380px';
-formContent.style.top = '415px';
-footer.style.top = '170px';
+formContent.style.top = '412px';
+footer.style.top = '190px';
 document.getElementById('comp-jjsesgf6').style.display = 'none';
 
 var isFirstAccordionOpen = false;
 var isSecondAccordionOpen = false;
 
-function toggleAccordion(accordion) {
+window.toggleAccordion = function(accordion) {
     accordion == 'first' ? isFirstAccordionOpen = !isFirstAccordionOpen : isSecondAccordionOpen = !isSecondAccordionOpen;
 
     if(isFirstAccordionOpen && isSecondAccordionOpen) {
@@ -84,9 +84,9 @@ function toggleAccordion(accordion) {
         secondAccordionPanel.style.display = 'block';
         secondArrowUp.style.display = 'block';
         secondArrowDown.style.display = 'none';
-        formHeaderCtn.style.top = '565px';
-        formContent.style.top = '601px';
-        footer.style.top = '373px';
+        formHeaderCtn.style.top = '566px';
+        formContent.style.top = '600px';
+        footer.style.top = '380px';
         secondAccordionCtn.style.top = '314px';
 
     } else if(isFirstAccordionOpen || isSecondAccordionOpen) {
@@ -95,21 +95,21 @@ function toggleAccordion(accordion) {
             arrowUp.style.display = 'block';
             arrowDown.style.display = 'none';
             secondAccordionCtn.style.top = '313px';
-            formHeaderCtn.style.top = '515px';
-            formContent.style.top = '550px';
-            footer.style.top = '306px';
+            formHeaderCtn.style.top = '508px';
+            formContent.style.top = '540px';
+            footer.style.top = '325px';
             secondArrowUp.style.display = 'none';
             secondAccordionPanel.style.display = 'none';
             secondArrowDown.style.display = 'block';
        } else{
             secondAccordionPanel.style.display = 'block';
-            secondAccordionCtn.style.top = '186px';
+             secondAccordionCtn.style.top = '186px';
             accordionPanel.style.display = 'none';
             secondArrowUp.style.display = 'block';
             secondArrowDown.style.display = 'none';
             formHeaderCtn.style.top = '440px';
-            formContent.style.top = '474px';
-            footer.style.top = '246px';
+            formContent.style.top = '478px';
+            footer.style.top = '273px';
             accordionPanel.style.display = 'none';
             arrowUp.style.display = 'none';
             arrowDown.style.display = 'block';
@@ -123,8 +123,8 @@ function toggleAccordion(accordion) {
         secondArrowUp.style.display = 'none';
         secondArrowDown.style.display = 'block';
         formHeaderCtn.style.top = '380px';
-        formContent.style.top = '415px';
-        footer.style.top = '170px';
+        formContent.style.top = '412px';
+        footer.style.top = '190px';
         secondAccordionCtn.style.top = '186px';
     }
 }

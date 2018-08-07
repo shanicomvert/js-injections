@@ -2,6 +2,9 @@ var link = document.createElement('link');
 link.rel = 'stylesheet';
 link.href = 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
 document.head.appendChild(link);
+var contentCtn = document.getElementById('comp-jgy7fiqeinlineContentParent');
+contentCtn.style.backgroundImage = "url('https://preview.ibb.co/kmpx1K/map.png')";
+contentCtn.style.backgroundSize = 'cover';
 
 var formHeaderCtn = document.getElementById("comp-jiudr4qr");
 var html = '<div class="accordionCtn" style="min-height: 192px;min-width: 980px;left: 0px;width: 980px;position: absolute;margin-left: calc((100% - 1060px) * 0.5);'+
@@ -36,8 +39,6 @@ var html = '<div class="accordionCtn" style="min-height: 192px;min-width: 980px;
 
 formHeaderCtn.insertAdjacentHTML('beforebegin', html);
 
-
-// var footer = document.getElementById("SITE_FOOTERinlineContent");
 var arrowUp = document.getElementById('arrowUp');
 var arrowDown = document.getElementById("arrowDown");
 var accordionPanel = document.getElementById("panel");
@@ -52,7 +53,7 @@ footer.style.top = '0';
 
 var isAccordionOpen = false;
 
-function toggleAccordion() {
+window.toggleAccordion = function() {
     isAccordionOpen = !isAccordionOpen;
 
     if(isAccordionOpen) {

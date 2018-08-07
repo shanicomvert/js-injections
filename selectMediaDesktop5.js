@@ -53,7 +53,7 @@ footer.style.top = '0';
 
 var isAccordionOpen = false;
 
-function toggleAccordion() {
+window.toggleAccordion = function() {
     isAccordionOpen = !isAccordionOpen;
 
     if(isAccordionOpen) {
