@@ -36,11 +36,11 @@ var html = '<div class="accordionCtn" style="min-height: 192px;min-width: 980px;
 '    </div>';
 
 var innerHtml =  '<div style="margin-left: calc((100% - 808px) * 0.5);font-size: 18px;">'+
-'        <div style="transform: rotate(270deg);position: absolute;top: 26px;font-size: 31px;">Join us</div>'+
-'        <div style="display:flex; flex-flow:row; margin-left: 72px;">'+
-'            <div style="border:1px solid black;margin-right: 5px;padding: 10px;"><span style="font-size: 25px;">1</span></br>COPMLETE</br>THE FORM</div>'+
-'            <div style="border:1px solid black;margin-right: 5px;padding: 10px;"><span style="font-size: 25px;">2</span></br>WE WILL CONTACT</br>YOU SHORTLY</div>'+
-'            <div style="border:1px solid black;padding: 10px;"><span style="font-size: 25px;">3</span></br>PULL OUR CODE AND</br>START EARNING</div>'+
+'        <div style="transform: rotate(270deg);position: absolute;top: 31px;font-size: 26px;font-weight: bold;margin-left: 6px;">Join us</div>'+
+'        <div style="display:flex; flex-flow:row;margin-left: 79px;">'+
+'            <div style="border:1px solid black;margin-right: 5px;padding: 10px; background: #e1c1c0; color:white;"><span style="font-size: 25px;">1</span></br>COPMLETE</br>THE FORM</div>'+
+'            <div style="border:1px solid black;margin-right: 5px;padding: 10px;background: #b1544e;color:white;"><span style="font-size: 25px;">2</span></br>WE WILL CONTACT</br>YOU SHORTLY</div>'+
+'            <div style="border:1px solid black;padding: 10px;background:#902727;color:white;"><span style="font-size: 25px;">3</span></br>PULL OUR CODE AND</br>START EARNING</div>'+
 '        </div>'+
 '    </div>';
 	

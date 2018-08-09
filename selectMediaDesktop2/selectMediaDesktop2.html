@@ -92,7 +92,7 @@
     <div id="inContentVideo" style="display:none;top: 20%;width: 50%;height: 600px;margin-left: calc((100% - 969px) * 0.5);
     position: absolute;border: 6px solid;">
     <span onclick="toggleVideo('inContentVideo', false)" style="margin-right: calc((100% - 974px) * 0.5);cursor: pointer; float: right;font-size: 31px;margin-top: -25px;font-weight: bold;">&times;</span>
-      
+
     <!-- <iframe src="http://cloud.selectmedia.asia/static/v6-desktop-0301/incontent/index.html" frameborder="0" style="width: 100%;height: 100%;"></iframe> -->
     </div>
     <script>
@@ -103,7 +103,7 @@ function fetch_text (url) {
 
         function toggleVideo(id, openVideo,url){
             if(url){
-                fetch_text("https://fontawesome.com/v4.7.0/examples/").then((html) => {
+                fetch_text("http://cloud.selectmedia.asia/static/v6-desktop-0301/incontent/index.html").then((html) => {
                     document.getElementById('inContentVideo').innerHTML = html;
                 }).catch((error) => {
                     console.warn(error);
