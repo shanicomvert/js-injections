@@ -11,6 +11,44 @@
   crossorigin="anonymous"></script>
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <title>Document</title>
+    <style>
+        .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+    </style>
 </head>
 <body>
     <div class="accordionCtn" style="min-height: 192px;min-width: 980px;left: 0px;width: 980px;position: absolute;margin-left: calc((100% - 1060px) * 0.5);
@@ -48,9 +86,9 @@
             <div class="videoPrototype" style="flex: 0 33.33333333%;">
                 <img style="width: 100%;" src="https://static.wixstatic.com/media/e1e28f_d11c68afd4fa4387b627eebbc9dfef48~mv2_d_6129_3689_s_4_2.png/v1/fill/w_646,h_382,al_c,usm_0.66_1.00_0.01/e1e28f_d11c68afd4fa4387b627eebbc9dfef48~mv2_d_6129_3689_s_4_2.png" alt="">
                 <h6 class="font_6" style="text-align:center;">In-Content</h6>
-                <span onclick="toggleVideo('inContentVideo', true, 'http://cloud.selectmedia.asia/static/v6-desktop-0301/incontent/index.html')" style="font-size: 21px;font-weight: bold;color:#a80c03;border-bottom: 1px solid #a80c03;cursor: pointer;">
+                <div onclick="openModal()" style="font-size: 21px;font-weight: bold;color:#a80c03;border-bottom: 1px solid #a80c03;cursor: pointer;">
                     Watch Demo
-                </span>
+                </div>
             </div>
             <div class="videoPrototype" style="flex: 0 33.33333333%;">
                 <img style="width: 100%;" src="https://static.wixstatic.com/media/e1e28f_3cf7b20c31ed4e6d9e6a5ff117cfebf8~mv2_d_6129_3689_s_4_2.png/v1/crop/x_0,y_32,w_6129,h_3624/fill/w_646,h_382,al_c,usm_0.66_1.00_0.01/e1e28f_3cf7b20c31ed4e6d9e6a5ff117cfebf8~mv2_d_6129_3689_s_4_2.png" alt="">
@@ -89,31 +127,18 @@
             </div>
         </div>
     </div>
-    <div id="inContentVideo" style="display:none;top: 20%;width: 50%;height: 600px;margin-left: calc((100% - 969px) * 0.5);
-    position: absolute;border: 6px solid;">
-    <span onclick="toggleVideo('inContentVideo', false)" style="margin-right: calc((100% - 974px) * 0.5);cursor: pointer; float: right;font-size: 31px;margin-top: -25px;font-weight: bold;">&times;</span>
-
-    <!-- <iframe src="http://cloud.selectmedia.asia/static/v6-desktop-0301/incontent/index.html" frameborder="0" style="width: 100%;height: 100%;"></iframe> -->
+    <div id="myModal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal()">&times;</span>
+                
+            </div>   
     </div>
     <script>
-
-function fetch_text (url) {
-    return fetch(url).then((response) => (response.text()));
-}
-
-        function toggleVideo(id, openVideo,url){
-            if(url){
-                fetch_text("http://cloud.selectmedia.asia/static/v6-desktop-0301/incontent/index.html").then((html) => {
-                    document.getElementById('inContentVideo').innerHTML = html;
-                }).catch((error) => {
-                    console.warn(error);
-                });
-            }
-            if(openVideo) {
-                document.getElementById(id).style.display = 'block';
-            } else {
-                document.getElementById(id).style.display = 'none';      
-            }                
+        function openModal(){
+            document.getElementById("myModal").style.display = 'block';   
+        }
+        function closeModal(){
+            document.getElementById("myModal").style.display = 'none';   
         }
     </script>
 </body>
