@@ -23,7 +23,7 @@ var html =  '<style>'+
 '.modal-content {'+
 '    background-color: #fefefe;'+
 '    margin: 4% auto; /* 15% from the top and centered */'+
-'    padding: 20px;'+
+'    padding: 8px 10px;'+
 '    border: 1px solid #888;'+
 '    width: 58%; /* Could be more or less, depending on screen size */'+
 '    height: 80%;'+
@@ -33,7 +33,7 @@ var html =  '<style>'+
 '.close {'+
 '    color: #aaa;'+
 '    float: right;'+
-'    font-size: 28px;'+
+'    font-size: 40px;'+
 '    font-weight: bold;'+
 '}'+
 ''+
@@ -213,7 +213,7 @@ var html =  '<style>'+
 '<div id="modal1" class="modal">'+
 '            <div class="modal-content">'+
 '                <span class="close" onclick="closeModal1()">×</span>'+
-'                <div style="height: 95%;overflow-y: scroll;margin: 2%;">'+
+'                <div style="height: 95%;overflow-y: scroll;margin: 3% 2.5% 0% 2.5%;">'+
 '                    <div class="header">'+
 '                        <img src="http://cloud.selectmedia.asia/static/v6-desktop-0301/images/header_top.jpg" />'+
 '                        <img src="http://cloud.selectmedia.asia/static/v6-desktop-0301/images/header_small.jpg" />'+
@@ -240,7 +240,7 @@ var html =  '<style>'+
 '    <div id="modal2" class="modal">'+
 '            <div class="modal-content">'+
 '                <span class="close" onclick="closeModal2()">×</span>'+
-'                <div style="height: 95%;overflow-y: scroll;margin: 2%;">'+
+'                <div style="height: 95%;overflow-y: scroll;margin: 3% 2.5% 0% 2.5%;">'+
 '                    <div class="content-main" id="modalContent">'+
 '                            <div class="header">'+
 '                                    <img src="http://cloud.selectmedia.asia/static/v6-desktop-0301/images/header_top.jpg" />'+
@@ -268,7 +268,7 @@ var html =  '<style>'+
 ' <div id="modal3" class="modal">'+
 '            <div class="modal-content">'+
 '                <span class="close" onclick="closeModal3()">×</span>'+
-'                <div style="height: 95%;overflow-y: scroll;margin: 2%;">'+
+'                <div style="height: 95%;overflow-y: scroll;margin: 3% 2.5% 0% 2.5%;">'+
 '                        <div class="header">'+
 '                            <img src="http://cloud.selectmedia.asia/static/v6-desktop-0301/images/header_top.jpg" />'+
 '                            <img src="http://cloud.selectmedia.asia/static/v6-desktop-0301/images/header_small.jpg" />'+
@@ -295,7 +295,7 @@ var html =  '<style>'+
 '    <div id="modal4" class="modal">'+
 '            <div class="modal-content">'+
 '                <span class="close" onclick="closeModal4()">×</span>'+
-'                <div style="height: 95%;overflow-y: scroll;margin: 2%;">  '+
+'                <div style="height: 95%;overflow-y: scroll;margin: 3% 2.5% 0% 2.5%;">  '+
 '                    <div class="header banner">'+
 '                        <img src="http://cloud.selectmedia.asia/static/v6-desktop-0301/images/header_top.jpg" />'+
 '                        <div class="ad">'+
@@ -328,7 +328,7 @@ var html =  '<style>'+
 '    <div id="modal5" class="modal">'+
 '            <div class="modal-content">'+
 '                <span class="close" onclick="closeModal5()">×</span>'+
-'                <div style="height: 95%;overflow-y: scroll;margin: 2%;">  '+
+'                <div style="height: 95%;overflow-y: scroll;margin: 3% 2.5% 0% 2.5%;">  '+
 '                        <div class="header">'+
 '                                <img src="http://cloud.selectmedia.asia/static/v6-desktop-0301/images/header_top.jpg" />'+
 '                                <img src="http://cloud.selectmedia.asia/static/v6-desktop-0301/images/header_small.jpg" />'+
@@ -356,7 +356,7 @@ var html =  '<style>'+
 '    <div id="modal6" class="modal">'+
 '            <div class="modal-content">'+
 '                <span class="close" onclick="closeModal6()">×</span>'+
-'                <div style="height: 95%;overflow-y: scroll;margin: 2%;">  '+
+'                <div style="height: 95%;overflow-y: scroll;margin: 3% 2.5% 0% 2.5%;">  '+
 '                        <div class="header">'+
 '                                <img src="http://cloud.selectmedia.asia/static/v6-desktop-0301/images/header_top.jpg" />'+
 '                                <img src="http://cloud.selectmedia.asia/static/v6-desktop-0301/images/header_small.jpg" />'+

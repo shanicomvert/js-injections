@@ -11,7 +11,7 @@ var html = '<div class="accordionCtn" style="min-height: 192px;min-width: 980px;
 '            <h2 style="overflow: hidden; text-overflow: ellipsis; -webkit-box-orient: vertical; display: -webkit-box; -webkit-line-clamp: 3;font: normal normal bold 41px/51px poppins-semibold,poppins,sans-serif;color: rgba(48,48,48,1);">Exceptional Value for Publishers</h2>'+
 '        </div>'+
 '        <div style="display:flex; flex-flow:row;cursor: pointer;width: 92%;border-color: rgba(51,51,51,0.2) !important;text-align: left!important;direction: ltr;'+
-'        padding: 39px 0 15px 47px; font: normal normal bold 18px/22px poppins-extralight,poppins,sans-serif;line-height: 1.2em;font-size: 18px;color: rgba(0,0,0,1);"'+
+'        padding: 23px 0 15px 47px; font: normal normal bold 18px/22px poppins-extralight,poppins,sans-serif;line-height: 1.2em;font-size: 18px;color: rgba(0,0,0,1);"'+
 '        onclick="toggleAccordion(\'first\');">'+
 '            <span style="display: flex; flex-flow: column">'+
 '                At SelectMedia we know how important it is to provide the best user experience for your viewers, '+
@@ -40,15 +40,15 @@ var html = '<div class="accordionCtn" style="min-height: 192px;min-width: 980px;
 '        padding: 0 0 15px 47px; font: normal normal bold 18px/22px poppins-extralight,poppins,sans-serif;line-height: 1.2em;font-size: 18px;color: rgba(0,0,0,1);"'+
 '        onclick="toggleAccordion(\'second\');">'+
 '            <span style="display: flex; flex-flow: column">'+
-'               <h2 style="padding-bottom: 10px;overflow: hidden; text-overflow: ellipsis; -webkit-box-orient: vertical; display: -webkit-box; -webkit-line-clamp: 3;font: normal normal bold 41px/51px poppins-semibold,poppins,sans-serif;color: rgba(48,48,48,1);">What makes Selectmedia the best solution for you?</h2>'+
-'               <span>Our Video SSP is designed to provide the publisher with the all the required tools in one </br> centralized solution: a state-of-the-art video player, automatic Yield Optimization, CDN to host the video ad files (if needed) and Ad Server to manage the ads and maximize yield...</span>'+
+'               <h2 style="text-align: center;padding-bottom: 23px;overflow: hidden; text-overflow: ellipsis; -webkit-box-orient: vertical; display: -webkit-box; -webkit-line-clamp: 3;font: normal normal bold 41px/51px poppins-semibold,poppins,sans-serif;color: rgba(48,48,48,1);">What makes Selectmedia the best solution for you?</h2>'+
+'               <span>Our Video SSP is designed to provide the publisher with the all the required tools in one </br> centralized solution: a state-of-the-art video player, automatic Yield Optimization,...</span>'+
 '            </span> '+
 '            <i id="secondArrowDown" class="fa fa-angle-down" style="margin: 3.5% 0 0 2.5%;font-size: 21px;"></i>        '+
 '            <i id="secondArrowUp" class="fa fa-angle-up" style="display:none;margin: 3.5% 0 0 2.5%;font-size: 21px;"></i>        '+
 '        </div>'+
 '        <div id="secondPanel" style="display: none;width: 92%;border-color: rgba(51,51,51,0.2) !important;text-align: left!important;direction: ltr;padding: 0 0 15px 47px;'+
 '        font: normal normal bold 18px/22px poppins-extralight,poppins,sans-serif;line-height: 1.2em;font-size: 18px;color: rgba(0,0,0,1);">'+
-'                Optimization, CDN to host the video ad files (if needed) and Ad Server to manage the ads and maximize yield.'+
+'               CDN to host the video ad files (if needed) and Ad Server to manage the ads and maximize yield.'+
 '        </div>'+
 '        <div style="border-bottom: 1px solid lightgray;padding: 3px;width: 91%;margin-left: calc((100% - 899px) * 0.5);/* margin-left: 4%; */"></div>'+
 '    </div>';

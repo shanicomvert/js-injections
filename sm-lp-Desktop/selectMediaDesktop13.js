@@ -11,7 +11,7 @@ var html = '<div class="accordionCtn" style="min-height: 192px;min-width: 980px;
 '            <h2 style="overflow: hidden; text-overflow: ellipsis; -webkit-box-orient: vertical; display: -webkit-box; -webkit-line-clamp: 3;font: normal normal bold 41px/51px poppins-semibold,poppins,sans-serif;color: rgba(48,48,48,1);">Exceptional Value for Publishers</h2>'+
 '        </div>'+
 '        <div style="display:flex; flex-flow:row;cursor: pointer;width: 92%;border-color: rgba(51,51,51,0.2) !important;text-align: left!important;direction: ltr;'+
-'        padding: 39px 0 15px 47px; font: normal normal bold 18px/22px poppins-extralight,poppins,sans-serif;line-height: 1.2em;font-size: 18px;color: rgba(0,0,0,1);"'+
+'        padding: 23px 0 15px 47px; font: normal normal bold 18px/22px poppins-extralight,poppins,sans-serif;line-height: 1.2em;font-size: 18px;color: rgba(0,0,0,1);"'+
 '        onclick="toggleAccordion(\'first\');">'+
 '            <span style="display: flex; flex-flow: column">'+
 '                At SelectMedia we know how important it is to provide the best user experience for your viewers, '+
@@ -40,15 +40,15 @@ var html = '<div class="accordionCtn" style="min-height: 192px;min-width: 980px;
 '        padding: 0 0 15px 47px; font: normal normal bold 18px/22px poppins-extralight,poppins,sans-serif;line-height: 1.2em;font-size: 18px;color: rgba(0,0,0,1);"'+
 '        onclick="toggleAccordion(\'second\');">'+
 '            <span style="display: flex; flex-flow: column">'+
-'               <h2 style="padding-bottom: 10px;overflow: hidden; text-overflow: ellipsis; -webkit-box-orient: vertical; display: -webkit-box; -webkit-line-clamp: 3;font: normal normal bold 41px/51px poppins-semibold,poppins,sans-serif;color: rgba(48,48,48,1);">Learn more about technology</h2>'+
-'               <span>The technology powering our mobile growth and full - stack video platform is what sets SelectMedia apart...</span>'+
+'               <h2 style="text-align: center;padding-bottom: 23px;overflow: hidden; text-overflow: ellipsis; -webkit-box-orient: vertical; display: -webkit-box; -webkit-line-clamp: 3;font: normal normal bold 41px/51px poppins-semibold,poppins,sans-serif;color: rgba(48,48,48,1);">Learn more about technology</h2>'+
+'               <span>The technology powering our mobile growth and full - stack video platform is what sets SelectMedia apart. Our custom technology stack is optimized from the ground up for video and...</span>'+
 '            </span> '+
 '            <i id="secondArrowDown" class="fa fa-angle-down" style="margin: 3.5% 0 0 2.5%;font-size: 21px;"></i>        '+
 '            <i id="secondArrowUp" class="fa fa-angle-up" style="display:none;margin: 3.5% 0 0 2.5%;font-size: 21px;"></i>        '+
 '        </div>'+
 '        <div id="secondPanel" style="display: none;width: 92%;border-color: rgba(51,51,51,0.2) !important;text-align: left!important;direction: ltr;padding: 0 0 15px 47px;'+
 '        font: normal normal bold 18px/22px poppins-extralight,poppins,sans-serif;line-height: 1.2em;font-size: 18px;color: rgba(0,0,0,1);">'+
-'               Our custom technology stack is optimized from the ground up for video and mobile, applying a sophisticated set of analytical tools and predictive algorithms to target, deliver and optimize every impression with extreme precision.'+
+'               mobile, applying a sophisticated set of analytical tools and predictive algorithms to target, deliver and optimize every impression with extreme precision.'+
 '        </div>'+
 '        <div style="border-bottom: 1px solid lightgray;padding: 3px;width: 91%;margin-left: calc((100% - 899px) * 0.5);/* margin-left: 4%; */"></div>'+
 '    </div>';
