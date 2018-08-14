@@ -66,8 +66,8 @@ var secondAccordionPanel = document.getElementById("secondPanel");
 var formContent = document.getElementById("comp-jitywdkn");
 var secondAccordionCtn = document.getElementById('secondAccordionCtn');
 
-formHeaderCtn.style.top = '380px';
-formContent.style.top = '412px';
+formHeaderCtn.style.top = '393px';
+formContent.style.top = '426px';
 footer.style.top = '190px';
 document.getElementById('comp-jjsesgf6').style.display = 'none';
 
@@ -84,8 +84,8 @@ window.toggleAccordion = function(accordion) {
         secondAccordionPanel.style.display = 'block';
         secondArrowUp.style.display = 'block';
         secondArrowDown.style.display = 'none';
-        formHeaderCtn.style.top = '595px';
-        formContent.style.top = '630px';
+        formHeaderCtn.style.top = '585px';
+        formContent.style.top = '618px';
         footer.style.top = '400px';
         secondAccordionCtn.style.top = '314px';
 
@@ -95,9 +95,9 @@ window.toggleAccordion = function(accordion) {
             arrowUp.style.display = 'block';
             arrowDown.style.display = 'none';
             secondAccordionCtn.style.top = '313px';
-            formHeaderCtn.style.top = '508px';
-            formContent.style.top = '540px';
-            footer.style.top = '308px';
+            formHeaderCtn.style.top = '520px';
+            formContent.style.top = '552px';
+            footer.style.top = '315px';
             secondArrowUp.style.display = 'none';
             secondAccordionPanel.style.display = 'none';
             secondArrowDown.style.display = 'block';
@@ -122,8 +122,8 @@ window.toggleAccordion = function(accordion) {
         secondAccordionPanel.style.display = 'none';
         secondArrowUp.style.display = 'none';
         secondArrowDown.style.display = 'block';
-        formHeaderCtn.style.top = '380px';
-        formContent.style.top = '412px';
+        formHeaderCtn.style.top = '393px';
+        formContent.style.top = '426px';
         footer.style.top = '190px';
         secondAccordionCtn.style.top = '186px';
     }

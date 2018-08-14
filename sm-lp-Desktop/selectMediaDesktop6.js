@@ -66,9 +66,9 @@ var secondAccordionPanel = document.getElementById("secondPanel");
 var formContent = document.getElementById("comp-jitywdkn");
 var secondAccordionCtn = document.getElementById('secondAccordionCtn');
 
-formHeaderCtn.style.top = '458px';
-formContent.style.top = '497px';
-footer.style.top = '260px';
+formHeaderCtn.style.top = '445px';
+formContent.style.top = '478px';
+footer.style.top = '240px';
 document.getElementById('comp-jjsesgf6').style.display = 'none';
 
 var isFirstAccordionOpen = false;
@@ -84,9 +84,9 @@ window.toggleAccordion = function(accordion) {
         secondAccordionPanel.style.display = 'block';
         secondArrowUp.style.display = 'block';
         secondArrowDown.style.display = 'none';
-        formHeaderCtn.style.top = '625px';
-        formContent.style.top = '660px';
-        footer.style.top = '400px';
+        formHeaderCtn.style.top = '613px';
+        formContent.style.top = '645px';
+        footer.style.top = '407px';
         secondAccordionCtn.style.top = '314px';
 
     } else if(isFirstAccordionOpen || isSecondAccordionOpen) {
@@ -96,7 +96,7 @@ window.toggleAccordion = function(accordion) {
             arrowDown.style.display = 'none';
             secondAccordionCtn.style.top = '313px';
             formHeaderCtn.style.top = '575px';
-            formContent.style.top = '611px';
+            formContent.style.top = '608px';
             footer.style.top = '360px';
             secondArrowUp.style.display = 'none';
             secondAccordionPanel.style.display = 'none';
@@ -107,9 +107,9 @@ window.toggleAccordion = function(accordion) {
             accordionPanel.style.display = 'none';
             secondArrowUp.style.display = 'block';
             secondArrowDown.style.display = 'none';
-            formHeaderCtn.style.top = '510px';
-            formContent.style.top = '547px';
-            footer.style.top = '290px';
+            formHeaderCtn.style.top = '485px';
+            formContent.style.top = '515px';
+            footer.style.top = '285px';
             accordionPanel.style.display = 'none';
             arrowUp.style.display = 'none';
             arrowDown.style.display = 'block';
@@ -122,9 +122,9 @@ window.toggleAccordion = function(accordion) {
         secondAccordionPanel.style.display = 'none';
         secondArrowUp.style.display = 'none';
         secondArrowDown.style.display = 'block';
-        formHeaderCtn.style.top = '458px';
-        formContent.style.top = '497px';
-        footer.style.top = '260px';
+        formHeaderCtn.style.top = '445px';
+        formContent.style.top = '478px';
+        footer.style.top = '240px';
         secondAccordionCtn.style.top = '186px';
     }
 }
