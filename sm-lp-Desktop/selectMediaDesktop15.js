@@ -116,12 +116,12 @@ var html = '<div id="c-carousel" >'+
 '		<div id="border"></div>'+
 '		<div id="wrapper">'+
 '			<div id="carousel">'+
-'				<img src="https://image.ibb.co/cT0yT9/1.png" width="250" height="250" />'+
-'				<img src="https://image.ibb.co/faUa89/2.png" width="250" height="250" />'+
-'				<img src="https://image.ibb.co/i8DwFp/3.png" width="250" height="250" />'+
-'				<img src="https://image.ibb.co/hkMBgU/4.png" width="250" height="250" />'+
-'				<img src="https://image.ibb.co/hnCHMU/5.png" width="250" height="250" />'+
-'				<img src="https://image.ibb.co/dOC1gU/6.png" width="250" height="250" />'+
+'				<img src="https://cdn.comvert.io/vendor/Selectmedia/Images/inContent.png" width="250" height="250" />'+
+'				<img src="https://cdn.comvert.io/vendor/Selectmedia/Images/fixedPlayist.png" width="250" height="250" />'+
+'				<img src="https://cdn.comvert.io/vendor/Selectmedia/Images/sliderPlaylist.png" width="250" height="250" />'+
+'				<img src="https://cdn.comvert.io/vendor/Selectmedia/Images/brandHeader.png" width="250" height="250" />'+
+'				<img src="https://cdn.comvert.io/vendor/Selectmedia/Images/overlay.png" width="250" height="250" />'+
+'				<img src="https://cdn.comvert.io/vendor/Selectmedia/Images/bottomSticky.png" width="250" height="250" />'+
 '			</div>'+
 '    </div>'+
 '<div id="pager"</div>';

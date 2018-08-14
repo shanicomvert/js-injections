@@ -167,42 +167,42 @@ var html =  '<style>'+
 '        <h2 style="margin: 2% 0; font: normal normal bold 41px/51px poppins-semibold,poppins,sans-serif;color: rgba(48,48,48,1);">Our Video Solution</h2>'+
 '        <div class="videosPrototypesFlex" style="display: flex;flex-wrap: wrap;width: 50%;height: auto;margin: 0 25%;">'+
 '            <div class="videoPrototype" style="flex: 0 33.33333333%;">'+
-'                <img style="width: 100%;" src="https://static.wixstatic.com/media/e1e28f_d11c68afd4fa4387b627eebbc9dfef48~mv2_d_6129_3689_s_4_2.png/v1/fill/w_646,h_382,al_c,usm_0.66_1.00_0.01/e1e28f_d11c68afd4fa4387b627eebbc9dfef48~mv2_d_6129_3689_s_4_2.png" alt="">'+
+'                <img style="width: 100%;" src="https://cdn.comvert.io/vendor/Selectmedia/Images/inContent1.png" alt="">'+
 '                <h6 class="font_6" style="text-align:center;">In-Content</h6>'+
 '                <div onclick="openModal1()" style="margin:0 27%; font-size: 21px;font-weight: bold;color:#a80c03;border-bottom: 1px solid #a80c03;cursor: pointer;">'+
                       'Watch Demo'+
                 '</div>'+
 '            </div>'+
 '            <div class="videoPrototype" style="flex: 0 33.33333333%;">'+
-'                <img style="width: 100%;" src="https://static.wixstatic.com/media/e1e28f_3cf7b20c31ed4e6d9e6a5ff117cfebf8~mv2_d_6129_3689_s_4_2.png/v1/crop/x_0,y_32,w_6129,h_3624/fill/w_646,h_382,al_c,usm_0.66_1.00_0.01/e1e28f_3cf7b20c31ed4e6d9e6a5ff117cfebf8~mv2_d_6129_3689_s_4_2.png" alt="">'+
+'                <img style="width: 100%;" src="https://cdn.comvert.io/vendor/Selectmedia/Images/fixedPlayist1.png" alt="">'+
 '                <h6 class="font_6" style="text-align:center;">Fixed Playlist</h6>'+
 '                 <div onclick="openModal2()" style="margin: 0 27%;font-size: 21px;font-weight: bold;color:#a80c03;border-bottom: 1px solid #a80c03;cursor: pointer;">'+
                     'Watch Demo'+
                  '</div>'+
 '            </div>'+
 '            <div class="videoPrototype" style="flex: 0 33.33333333%;color:#a80c03">'+
-'                <img style="width: 100%;" src="https://static.wixstatic.com/media/e1e28f_7f5c8cacf21f4725865602eaddc0153a~mv2_d_6129_3689_s_4_2.png/v1/crop/x_0,y_32,w_6129,h_3624/fill/w_646,h_380,al_c,usm_0.66_1.00_0.01/e1e28f_7f5c8cacf21f4725865602eaddc0153a~mv2_d_6129_3689_s_4_2.png" alt="">'+
+'                <img style="width: 100%;" src="https://cdn.comvert.io/vendor/Selectmedia/Images/sliderPlaylist1.png" alt="">'+
 '                <h6 class="font_6" style="text-align:center;">Slider Playlist</h6>'+
 '              <div onclick="openModal3()" style="margin: 0 27%;font-size: 21px;font-weight: bold;color:#a80c03;border-bottom: 1px solid #a80c03;cursor: pointer;">'+
                     'Watch Demo'+
                 '</div>'+
 '            </div>'+
 '            <div class="videoPrototype" style="flex: 0 33.33333333%;margin-top: 2%;">'+
-'                <img style="width: 100%;" src="https://static.wixstatic.com/media/e1e28f_745c106a4a5447348e75dbc7d2a894bf~mv2_d_6129_3689_s_4_2.png/v1/crop/x_0,y_32,w_6129,h_3624/fill/w_646,h_380,al_c,usm_0.66_1.00_0.01/e1e28f_745c106a4a5447348e75dbc7d2a894bf~mv2_d_6129_3689_s_4_2.png" alt="">'+
+'                <img style="width: 100%;" src="https://cdn.comvert.io/vendor/Selectmedia/Images/brandHeader1.png" alt="">'+
 '                <h6 class="font_6" style="text-align:center;">Brand Header</h6>'+
 '               <div onclick="openModal4()" style="margin: 0 27%;font-size: 21px;font-weight: bold;color:#a80c03;border-bottom: 1px solid #a80c03;cursor: pointer;">'+
                     'Watch Demo'+
                 '</div>'+
 '            </div>'+
 '            <div class="videoPrototype" style="flex: 0 33.33333333%;margin-top: 2%;">'+
-'                <img style="width: 100%;" src="https://static.wixstatic.com/media/e1e28f_66103d24b78540ec976a5dcc75789ef5~mv2_d_6129_3689_s_4_2.png/v1/crop/x_0,y_32,w_6129,h_3624/fill/w_646,h_382,al_c,usm_0.66_1.00_0.01/e1e28f_66103d24b78540ec976a5dcc75789ef5~mv2_d_6129_3689_s_4_2.png" alt="">'+
+'                <img style="width: 100%;" src="https://cdn.comvert.io/vendor/Selectmedia/Images/overlay1.png" alt="">'+
 '                <h6 class="font_6" style="text-align:center;">Overlay</h6>'+
 '               <div onclick="openModal5()" style=" margin: 0 27%;font-size: 21px;font-weight: bold;color:#a80c03;border-bottom: 1px solid #a80c03;cursor: pointer;">'+
                   'Watch Demo'+
                 '</div>'+
 '            </div>'+
 '            <div class="videoPrototype" style="flex: 0 33.33333333%;margin-top: 2%;">'+
-'                <img style="width: 100%;" src="https://static.wixstatic.com/media/e1e28f_b0d9fa774386480192fab82a28df6543~mv2_d_6129_3689_s_4_2.png/v1/crop/x_0,y_32,w_6129,h_3624/fill/w_646,h_380,al_c,usm_0.66_1.00_0.01/e1e28f_b0d9fa774386480192fab82a28df6543~mv2_d_6129_3689_s_4_2.png" alt="">'+
+'                <img style="width: 100%;" src="https://cdn.comvert.io/vendor/Selectmedia/Images/bottomSticky1.png" alt="">'+
 '                <h6 class="font_6" style="text-align:center;">Bottom Sticky</h6>'+
 '                 <div onclick="openModal6()" style="margin: 0 27%;font-size: 21px;font-weight: bold;color:#a80c03;border-bottom: 1px solid #a80c03;cursor: pointer;">'+
 '                       Watch Demo'+

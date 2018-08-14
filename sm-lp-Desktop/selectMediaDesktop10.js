@@ -3,7 +3,7 @@ link.rel = 'stylesheet';
 link.href = 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
 document.head.appendChild(link);
 var contentCtn = document.getElementById('comp-jgy7fiqeinlineContentParent');
-contentCtn.style.backgroundImage = "url('https://preview.ibb.co/kmpx1K/map.png')";
+contentCtn.style.backgroundImage = "url('https://cdn.comvert.io/vendor/Selectmedia/Images/map.png')";
 contentCtn.style.backgroundSize = 'cover';
 
 var formHeaderCtn = document.getElementById("comp-jiudr4qr");
