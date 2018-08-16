@@ -57,7 +57,7 @@ var footer = document.getElementById("SITE_FOOTERinlineContent");
 document.getElementById('comp-jjsesgf6').style.display =  'none';
 formHeaderCtn.style.top = '230px';
 formContent.style.top = '337px';
-footer.style.top = '-115px';
+footer.style.top = '0';
 
 var isAccordionOpen = false;
 
@@ -70,7 +70,7 @@ window.toggleAccordion = function() {
         arrowDown.style.display = 'none';
         formHeaderCtn.style.top = '360px';
         formContent.style.top = '476px';
-        footer.style.top = '10px';
+        footer.style.top = '150px';
 
     } else {
         accordionPanel.style.display = 'none';
@@ -78,6 +78,6 @@ window.toggleAccordion = function() {
         arrowDown.style.display = 'block';
         formHeaderCtn.style.top = '230px';
         formContent.style.top = '337px';
-        footer.style.top = '-115px';
+        footer.style.top = '0';
     }
 }

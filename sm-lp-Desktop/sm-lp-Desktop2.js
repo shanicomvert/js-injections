@@ -3,9 +3,19 @@
  link.rel = 'stylesheet';
  link.href = 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
  document.head.appendChild(link);
-
+ 
 var formHeaderCtn = document.getElementById("comp-jiudr4qr");
-var html =  '<style>'+
+var html =  '<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />'+
+'<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">'+
+'  <meta property="og:title" content="SELECTMEDIA" />'+
+'  <meta property="og:image" content="http://cloud.selectmedia.asia/static/v6-desktop-0301/images/ico_SM_16x16.gif" />'+
+'  <meta property="og:site_name" content="SELECTMEDIA" />'+
+'  <title>SELECTMEDIA</title>'+
+'<link rel="shortcut icon" href="http://cloud.selectmedia.asia/static/v6-desktop-0301/images/ico_SM_16x16.gif" />'+
+'  <link rel="icon" type="image/png" href="http://cloud.selectmedia.asia/static/v6-desktop-0301/images/ico_SM_16x16.gif" />'+
+'<meta name="viewport" content="width=1020">'+
+'<script type="text/javascript"   src="http://widgets.outbrain.com/outbrain.js"></script>'+
+'<style>'+
 '        .modal {'+
 '    display: none; /* Hidden by default */'+
 '    position: fixed; /* Stay in place */'+
@@ -54,7 +64,7 @@ var html =  '<style>'+
 '      width: 100%; }'+
 '    .content-main .header .ad {'+
 '      text-align: center;'+
-'      background: #01b0eb url("http://cloud.selectmedia.asia/static/v6-desktop-0301/images/banner-bg.jpg") no-repeat center center;'+
+'      background: #01b0eb url("https://cloud.selectmedia.asia/static/v6-desktop-0301/images/banner-bg.jpg") no-repeat center center;'+
 '      background-size: cover;'+
 '      margin-bottom: 12px;'+
 '      display: none;'+
@@ -215,23 +225,23 @@ var html =  '<style>'+
 '                <span class="close" onclick="closeModal1()">×</span>'+
 '                <div style="height: 95%;overflow-y: scroll;margin: 3% 2.5% 0% 2.5%;">'+
 '                    <div class="header">'+
-'                        <img src="http://cloud.selectmedia.asia/static/v6-desktop-0301/images/header_top.jpg" />'+
-'                        <img src="http://cloud.selectmedia.asia/static/v6-desktop-0301/images/header_small.jpg" />'+
+'                        <img src="https://cloud.selectmedia.asia/static/v6-desktop-0301/images/header_top.jpg" />'+
+'                        <img src="https://cloud.selectmedia.asia/static/v6-desktop-0301/images/header_small.jpg" />'+
 '                    </div>'+
 ''+
 '                    <div class="main" style="background:none; position:relative">'+
 '                        <div class="article_main">'+
-'                        <img src="http://cloud.selectmedia.asia/static/v6-desktop-0301/images/main_block1.jpg" style="margin-bottom:20px" />'+
+'                        <img src="https://cloud.selectmedia.asia/static/v6-desktop-0301/images/main_block1.jpg" style="margin-bottom:20px" />'+
 '                        <div id="aniAnimation1" class="aniAnimationOpen"><div id="aniviewBox1"><div id="aniplayer1"></div></div></div>'+
 ''+
-'                        <img src="http://cloud.selectmedia.asia/static/v6-desktop-0301/images/main_block2.jpg" style="margin-top:20px" />'+
+'                        <img src="https://cloud.selectmedia.asia/static/v6-desktop-0301/images/main_block2.jpg" style="margin-top:20px" />'+
 '                        </div>'+
 '                        <div class="article_sidebar" style="border-left:1px solid #ddd; border-right:1px solid #ddd; position:absolute; top:0; right:0; height:100%">'+
-'                        <img src="http://cloud.selectmedia.asia/static/v6-desktop-0301/images/sidebar_article.jpg" />'+
+'                        <img src="https://cloud.selectmedia.asia/static/v6-desktop-0301/images/sidebar_article.jpg" />'+
 '                        </div>'+
 '                    </div>'+
 ''+
-'                    <div class="footer"><img src="http://cloud.selectmedia.asia/static/v6-desktop-0301/images/footer.jpg" />'+
+'                    <div class="footer"><img src="https://cloud.selectmedia.asia/static/v6-desktop-0301/images/footer.jpg" />'+
 '                    </div>'+
 ''+
 '             </div>'+
@@ -243,24 +253,24 @@ var html =  '<style>'+
 '                <div style="height: 95%;overflow-y: scroll;margin: 3% 2.5% 0% 2.5%;">'+
 '                    <div class="content-main" id="modalContent">'+
 '                            <div class="header">'+
-'                                    <img src="http://cloud.selectmedia.asia/static/v6-desktop-0301/images/header_top.jpg" />'+
-'                                    <img src="http://cloud.selectmedia.asia/static/v6-desktop-0301/images/header_small.jpg" />'+
+'                                    <img src="https://cloud.selectmedia.asia/static/v6-desktop-0301/images/header_top.jpg" />'+
+'                                    <img src="https://cloud.selectmedia.asia/static/v6-desktop-0301/images/header_small.jpg" />'+
 '                                  </div>'+
 '                              '+
 '                                  <div class="main" style="background:none; position:relative">'+
 '                                    <div class="article_main">'+
-'                                      <img src="http://cloud.selectmedia.asia/static/v6-desktop-0301/images/main_block1.jpg" style="margin-bottom:20px" />'+
-'                                     '+
-'                                      <div class="aniviewRSlider1"></div>'+
+'                                      <img src="https://cloud.selectmedia.asia/static/v6-desktop-0301/images/main_block1.jpg" style="margin-bottom:20px" />'+
+
+'                                      <div class="aniviewRSlider"></div>'+
 ''+
-'                                      <img src="http://cloud.selectmedia.asia/static/v6-desktop-0301/images/main_block2.jpg" style="margin-top:20px" />'+
+'                                      <img src="https://cloud.selectmedia.asia/static/v6-desktop-0301/images/main_block2.jpg" style="margin-top:20px" />'+
 '                                    </div>'+
 '                                    <div class="article_sidebar" style="border-left:1px solid #ddd; border-right:1px solid #ddd; position:absolute; top:0; right:0; height:100%">'+
-'                                      <img src="http://cloud.selectmedia.asia/static/v6-desktop-0301/images/sidebar_article.jpg" />'+
+'                                      <img src="https://cloud.selectmedia.asia/static/v6-desktop-0301/images/sidebar_article.jpg" />'+
 '                                    </div>'+
 '                                  </div>'+
 '                              '+
-'                                  <div class="footer"><img src="http://cloud.selectmedia.asia/static/v6-desktop-0301/images/footer.jpg" /></div>'+
+'                                  <div class="footer"><img src="https://cloud.selectmedia.asia/static/v6-desktop-0301/images/footer.jpg" /></div>'+
 '                    </div>  '+
 '                </div>'+
 '            </div>   '+
@@ -270,24 +280,24 @@ var html =  '<style>'+
 '                <span class="close" onclick="closeModal3()">×</span>'+
 '                <div style="height: 95%;overflow-y: scroll;margin: 3% 2.5% 0% 2.5%;">'+
 '                        <div class="header">'+
-'                            <img src="http://cloud.selectmedia.asia/static/v6-desktop-0301/images/header_top.jpg" />'+
-'                            <img src="http://cloud.selectmedia.asia/static/v6-desktop-0301/images/header_small.jpg" />'+
+'                            <img src="https://cloud.selectmedia.asia/static/v6-desktop-0301/images/header_top.jpg" />'+
+'                            <img src="https://cloud.selectmedia.asia/static/v6-desktop-0301/images/header_small.jpg" />'+
 '                        </div>'+
 ''+
 '                        <div class="main" style="background:none; position:relative">'+
 '                            <div class="article_main">'+
-'                            <img src="http://cloud.selectmedia.asia/static/v6-desktop-0301/images/main_block1.jpg" style="margin-bottom:20px" />'+
+'                            <img src="https://cloud.selectmedia.asia/static/v6-desktop-0301/images/main_block1.jpg" style="margin-bottom:20px" />'+
 '                          '+
 '                            <div class="aniviewRSlider"></div>'+
 ''+
-'                            <img src="http://cloud.selectmedia.asia/static/v6-desktop-0301/images/main_block2.jpg" style="margin-top:20px" />'+
+'                            <img src="https://cloud.selectmedia.asia/static/v6-desktop-0301/images/main_block2.jpg" style="margin-top:20px" />'+
 '                            </div>'+
 '                            <div class="article_sidebar" style="border-left:1px solid #ddd; border-right:1px solid #ddd; position:absolute; top:0; right:0; height:100%">'+
-'                            <img src="http://cloud.selectmedia.asia/static/v6-desktop-0301/images/sidebar_article.jpg" />'+
+'                            <img src="https://cloud.selectmedia.asia/static/v6-desktop-0301/images/sidebar_article.jpg" />'+
 '                            </div>'+
 '                        </div>'+
 ''+
-'                        <div class="footer"><img src="http://cloud.selectmedia.asia/static/v6-desktop-0301/images/footer.jpg" /></div>'+
+'                        <div class="footer"><img src="https://cloud.selectmedia.asia/static/v6-desktop-0301/images/footer.jpg" /></div>'+
 ''+
 '                </div>'+
 '            </div>'+
@@ -297,31 +307,31 @@ var html =  '<style>'+
 '                <span class="close" onclick="closeModal4()">×</span>'+
 '                <div style="height: 95%;overflow-y: scroll;margin: 3% 2.5% 0% 2.5%;">  '+
 '                    <div class="header banner">'+
-'                        <img src="http://cloud.selectmedia.asia/static/v6-desktop-0301/images/header_top.jpg" />'+
+'                        <img src="https://cloud.selectmedia.asia/static/v6-desktop-0301/images/header_top.jpg" />'+
 '                        <div class="ad">'+
 '                            <div id="aniplayer"></div>'+
 '                            <div id="close"></div>'+
 '                        </div>'+
-'                        <img src="http://cloud.selectmedia.asia/static/v6-desktop-0301/images/header.jpg" />'+
+'                        <img src="https://cloud.selectmedia.asia/static/v6-desktop-0301/images/header.jpg" />'+
 '                    </div>                   '+
 '                    <div class="featured">'+
-'                    <img src="http://cloud.selectmedia.asia/static/v6-desktop-0301/images/featured_story.jpg" />'+
-'                    <img src="http://cloud.selectmedia.asia/static/v6-desktop-0301/images/featured_stories.jpg" />'+
+'                    <img src="https://cloud.selectmedia.asia/static/v6-desktop-0301/images/featured_story.jpg" />'+
+'                    <img src="https://cloud.selectmedia.asia/static/v6-desktop-0301/images/featured_stories.jpg" />'+
 '                    </div>'+
 '                '+
 '                    <div class="main">'+
-'                    <div class="left"><img src="http://cloud.selectmedia.asia/static/v6-desktop-0301/images/main_block.jpg" /></div>'+
+'                    <div class="left"><img src="https://cloud.selectmedia.asia/static/v6-desktop-0301/images/main_block.jpg" /></div>'+
 '                    <div class="right">'+
-'                        <img src="http://cloud.selectmedia.asia/static/v6-desktop-0301/images/social.jpg" />'+
+'                        <img src="https://cloud.selectmedia.asia/static/v6-desktop-0301/images/social.jpg" />'+
 '                        <div class="ad">'+
 '                        <div id="aniplayer"></div>'+
-'                        <img src="http://cloud.selectmedia.asia/static/v6-desktop-0301/images/sidebar_ad_bottom.jpg" />'+
+'                        <img src="https://cloud.selectmedia.asia/static/v6-desktop-0301/images/sidebar_ad_bottom.jpg" />'+
 '                        </div>'+
-'                        <img src="http://cloud.selectmedia.asia/static/v6-desktop-0301/images/sidebar.jpg" />'+
+'                        <img src="https://cloud.selectmedia.asia/static/v6-desktop-0301/images/sidebar.jpg" />'+
 '                    </div>'+
 '                    </div>'+
 '                '+
-'                    <div class="footer"><img src="http://cloud.selectmedia.asia/static/v6-desktop-0301/images/footer.jpg" /></div> '+
+'                    <div class="footer"><img src="https://cloud.selectmedia.asia/static/v6-desktop-0301/images/footer.jpg" /></div> '+
 '                </div>'+
 '            </div>'+
 '    </div> '+
@@ -330,24 +340,24 @@ var html =  '<style>'+
 '                <span class="close" onclick="closeModal5()">×</span>'+
 '                <div style="height: 95%;overflow-y: scroll;margin: 3% 2.5% 0% 2.5%;">  '+
 '                        <div class="header">'+
-'                                <img src="http://cloud.selectmedia.asia/static/v6-desktop-0301/images/header_top.jpg" />'+
-'                                <img src="http://cloud.selectmedia.asia/static/v6-desktop-0301/images/header_small.jpg" />'+
+'                                <img src="https://cloud.selectmedia.asia/static/v6-desktop-0301/images/header_top.jpg" />'+
+'                                <img src="https://cloud.selectmedia.asia/static/v6-desktop-0301/images/header_small.jpg" />'+
 '                            </div>'+
 '        '+
 '                            <div class="main" style="background:none; position:relative">'+
 '                                <div class="article_main">'+
-'                                <img src="http://cloud.selectmedia.asia/static/v6-desktop-0301/images/main_block1.jpg" style="margin-bottom:20px" />'+
+'                                <img src="https://cloud.selectmedia.asia/static/v6-desktop-0301/images/main_block1.jpg" style="margin-bottom:20px" />'+
 '        '+
 '                                <div id="aniAnimation" class="aniAnimationOpen"><div id="aniviewBox"><div id="aniplayer"></div></div></div>'+
 '        '+
-'                                <img src="http://cloud.selectmedia.asia/static/v6-desktop-0301/images/main_block2.jpg" style="margin-top:20px" />'+
+'                                <img src="https://cloud.selectmedia.asia/static/v6-desktop-0301/images/main_block2.jpg" style="margin-top:20px" />'+
 '                                </div>'+
 '                                <div class="article_sidebar" style="border-left:1px solid #ddd; border-right:1px solid #ddd; position:absolute; top:0; right:0; height:100%">'+
-'                                <img src="http://cloud.selectmedia.asia/static/v6-desktop-0301/images/sidebar_article.jpg" />'+
+'                                <img src="https://cloud.selectmedia.asia/static/v6-desktop-0301/images/sidebar_article.jpg" />'+
 '                                </div>'+
 '                            </div>'+
 '        '+
-'                            <div class="footer"><img src="http://cloud.selectmedia.asia/static/v6-desktop-0301/images/footer.jpg" />'+
+'                            <div class="footer"><img src="https://cloud.selectmedia.asia/static/v6-desktop-0301/images/footer.jpg" />'+
 '                            </div>'+
 '                </div>'+
 '               '+
@@ -358,24 +368,24 @@ var html =  '<style>'+
 '                <span class="close" onclick="closeModal6()">×</span>'+
 '                <div style="height: 95%;overflow-y: scroll;margin: 3% 2.5% 0% 2.5%;">  '+
 '                        <div class="header">'+
-'                                <img src="http://cloud.selectmedia.asia/static/v6-desktop-0301/images/header_top.jpg" />'+
-'                                <img src="http://cloud.selectmedia.asia/static/v6-desktop-0301/images/header_small.jpg" />'+
+'                                <img src="https://cloud.selectmedia.asia/static/v6-desktop-0301/images/header_top.jpg" />'+
+'                                <img src="https://cloud.selectmedia.asia/static/v6-desktop-0301/images/header_small.jpg" />'+
 '                            </div>'+
 '        '+
 '                            <div class="main" style="background:none; position:relative">'+
 '                                <div class="article_main">'+
-'                                <img src="http://cloud.selectmedia.asia/static/v6-desktop-0301/images/main_block1.jpg" style="margin-bottom:20px" />'+
+'                                <img src="https://cloud.selectmedia.asia/static/v6-desktop-0301/images/main_block1.jpg" style="margin-bottom:20px" />'+
 '        '+
 '                                <div id="aniAnimation" class="aniAnimationOpen"><div id="aniviewBox"><div id="aniplayer"></div></div></div>'+
 '        '+
-'                                <img src="http://cloud.selectmedia.asia/static/v6-desktop-0301/images/main_block2.jpg" style="margin-top:20px" />'+
+'                                <img src="https://cloud.selectmedia.asia/static/v6-desktop-0301/images/main_block2.jpg" style="margin-top:20px" />'+
 '                                </div>'+
 '                                <div class="article_sidebar" style="border-left:1px solid #ddd; border-right:1px solid #ddd; position:absolute; top:0; right:0; height:100%">'+
-'                                <img src="http://cloud.selectmedia.asia/static/v6-desktop-0301/images/sidebar_article.jpg" />'+
+'                                <img src="https://cloud.selectmedia.asia/static/v6-desktop-0301/images/sidebar_article.jpg" />'+
 '                                </div>'+
 '                            </div>'+
 '        '+
-'                            <div class="footer"><img src="http://cloud.selectmedia.asia/static/v6-desktop-0301/images/footer.jpg" />'+
+'                            <div class="footer"><img src="https://cloud.selectmedia.asia/static/v6-desktop-0301/images/footer.jpg" />'+
 '                            </div>'+
 '                '+
 '                </div>'+

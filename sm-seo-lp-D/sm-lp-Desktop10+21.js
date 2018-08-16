@@ -1,11 +1,28 @@
+var elem = document.getElementById('accordion');
+elem.parentNode.removeChild(elem);
+elem = document.getElementById('joinus3steps');
+elem.parentNode.removeChild(elem);
+
 var link = document.createElement('link');
 link.rel = 'stylesheet';
 link.href = 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
 document.head.appendChild(link);
+var contentCtn = document.getElementById('comp-jgy7fiqeinlineContentParent');
+contentCtn.style.backgroundImage = "url('https://cdn.comvert.io/vendor/Selectmedia/Images/map.png')";
+contentCtn.style.backgroundSize = 'cover';
+
+var formSubmitBtn = document.getElementById("comp-jitywe7w");
+var html = '<div style="position: absolute; top: 576px; height: 42px; min-height: 32px; width: 400px; font-size:18px; left:270px">'+
+'        <span>Do you need help?</br>Please feel free to'+
+'            <a href="https://www.selectmedia.asia/contact-selectmedia" target="_blank" style="color: #A80303; border-bottom: #A80303">contact us</a>.'+
+'        </span>'+
+'    </div>';
+formSubmitBtn.insertAdjacentHTML('afterend', html);
 
 var formHeaderCtn = document.getElementById("comp-jiudr4qr");
+formHeaderCtn.innerHTML = '<h3 class="font_3" style="font-size:21px;"><span style="font-size:21px;"><span class="color_15">please complete&nbsp;the following form and we’ll get back to you shortly.</span></span></h3>';
 
-var html = '<div id="accordion" class="accordionCtn" style="min-height: 192px;min-width: 980px;left: 0px;width: 980px;position: absolute;margin-left: calc((100% - 1060px) * 0.5);'+
+var html = '<div class="accordionCtn" style="min-height: 192px;min-width: 980px;left: 0px;width: 980px;position: absolute;margin-left: calc((100% - 1060px) * 0.5);'+
 '    top: 10px;height: 192px;padding: 30px 40px;">'+
 '        <div style="text-align: center; width: calc(100% - 35px);">'+
 '            <h2 style="overflow: hidden; text-overflow: ellipsis; -webkit-box-orient: vertical; display: -webkit-box; -webkit-line-clamp: 3;font: normal normal bold 41px/51px poppins-semibold,poppins,sans-serif;color: rgba(48,48,48,1);">Exceptional Value for Publishers</h2>'+
@@ -35,17 +52,6 @@ var html = '<div id="accordion" class="accordionCtn" style="min-height: 192px;mi
 '        <div style="border-bottom: 1px solid lightgray;padding: 3px;width: 91%;margin-left: calc((100% - 899px) * 0.5);/* margin-left: 4%; */"></div>'+
 '    </div>';
 
-var innerHtml =  '<div id="joinus3steps" style="margin-left: calc((100% - 808px) * 0.5);font-size: 18px;">'+
-'        <div style="transform: rotate(270deg);position: absolute;top: 31px;font-size: 26px;font-weight: bold;margin-left: 6px;">Join us</div>'+
-'        <div style="display:flex; flex-flow:row;margin-left: 79px;">'+
-'            <div style="border:1px solid black;margin-right: 5px;padding: 10px; background: #e1c1c0; color: #4c4949;;"><span style="font-size: 25px;">1</span></br>COPMLETE</br>THE FORM</div>'+
-'            <div style="border:1px solid black;margin-right: 5px;padding: 10px;background: #b1544e;color:white;"><span style="font-size: 25px;">2</span></br>WE WILL CONTACT</br>YOU SHORTLY</div>'+
-'            <div style="border:1px solid black;padding: 10px;background:#902727;color:white;"><span style="font-size: 25px;">3</span></br>PULL OUR CODE AND</br>START EARNING</div>'+
-'        </div>'+
-'    </div>';
-	
-formHeaderCtn.innerHTML = innerHtml;
-
 formHeaderCtn.insertAdjacentHTML('beforebegin', html);
 
 var arrowUp = document.getElementById('arrowUp');
@@ -54,10 +60,11 @@ var accordionPanel = document.getElementById("panel");
 var formContent = document.getElementById("comp-jitywdkn");
 var footer = document.getElementById("SITE_FOOTERinlineContent");
 
+
 document.getElementById('comp-jjsesgf6').style.display =  'none';
-formHeaderCtn.style.top = '230px';
-formContent.style.top = '337px';
-footer.style.top = '-115px';
+formHeaderCtn.style.top = '207px';
+formContent.style.top = '238px';
+footer.style.top = '0';
 
 var isAccordionOpen = false;
 
@@ -68,16 +75,16 @@ window.toggleAccordion = function() {
         accordionPanel.style.display = 'block';
         arrowUp.style.display = 'block';
         arrowDown.style.display = 'none';
-        formHeaderCtn.style.top = '360px';
-        formContent.style.top = '476px';
-        footer.style.top = '10px';
+        formHeaderCtn.style.top = '335px';
+        formContent.style.top = '366px';
+        footer.style.top = '115px';
 
     } else {
         accordionPanel.style.display = 'none';
         arrowUp.style.display = 'none';
         arrowDown.style.display = 'block';
-        formHeaderCtn.style.top = '230px';
-        formContent.style.top = '337px';
-        footer.style.top = '-115px';
+        formHeaderCtn.style.top = '207px';
+        formContent.style.top = '238px';
+        footer.style.top = '0';
     }
 }
