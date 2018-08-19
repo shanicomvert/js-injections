@@ -158,9 +158,9 @@ window.toggleAccordion = function(accordion) {
 
 
     if(isFirstAccordionOpen && isSecondAccordionOpen && isThirdAccordionOpen){
-        formHeaderCtn.style.top = '962px';
-        formContent.style.top = '1067px';
-        footer.style.top = '680px';
+        formHeaderCtn.style.top = '1018px';
+        formContent.style.top = '1119px';
+        footer.style.top = '725px';
         secondAccordionCtn.style.top = '539px';
         thirdAccordionCtn.style.top = '758px';
         accordionPanel.style.display = 'block';
@@ -173,6 +173,21 @@ window.toggleAccordion = function(accordion) {
         thirdArrowUp.style.display = 'block';
         thirdArrowDown.style.display = 'none';
 
+    }else if(!isFirstAccordionOpen && !isSecondAccordionOpen && !isThirdAccordionOpen){
+        formHeaderCtn.style.top = '775px';
+        formContent.style.top = '883px';
+        footer.style.top = '485px';
+        secondAccordionCtn.style.top = '410px';
+        thirdAccordionCtn.style.top = '572px';
+        accordionPanel.style.display = 'none';
+        arrowUp.style.display = 'none';
+        arrowDown.style.display = 'block';
+        secondAccordionPanel.style.display = 'none';
+        secondArrowUp.style.display = 'none';
+        secondArrowDown.style.display = 'block';
+        thirdAccordionPanel.style.display = 'none';
+        thirdArrowUp.style.display = 'none';
+        thirdArrowDown.style.display = 'block';
     }else if(isFirstAccordionOpen && isSecondAccordionOpen && !isThirdAccordionOpen){
         formHeaderCtn.style.top = '962px';
         formContent.style.top = '1067px';
@@ -208,13 +223,13 @@ window.toggleAccordion = function(accordion) {
         formContent.style.top = '943px';
         footer.style.top = '565px';
         secondAccordionCtn.style.top = '415px';
-        thirdAccordionCtn.style.top = '637px';
-        accordionPanel.style.display = 'block';
-        arrowUp.style.display = 'block';
-        arrowDown.style.display = 'none';
-        secondAccordionPanel.style.display = 'none';
-        secondArrowUp.style.display = 'none';
-        secondArrowDown.style.display = 'block';
+        thirdAccordionCtn.style.top = '638px';
+        accordionPanel.style.display = 'none';
+        arrowUp.style.display = 'none';
+        arrowDown.style.display = 'block';
+        secondAccordionPanel.style.display = 'block';
+        secondArrowUp.style.display = 'block';
+        secondArrowDown.style.display = 'none';
         thirdAccordionPanel.style.display = 'none';
         thirdArrowUp.style.display = 'none';
         thirdArrowDown.style.display = 'block';
@@ -233,72 +248,35 @@ window.toggleAccordion = function(accordion) {
         thirdAccordionPanel.style.display = 'block';
         thirdArrowUp.style.display = 'block';
         thirdArrowDown.style.display = 'none';
-    }else if(!isFirstAccordionOpen && !isSecondAccordionOpen && !isThirdAccordionOpen){
-        formHeaderCtn.style.top = '775px';
-        formContent.style.top = '883px';
-        footer.style.top = '485px';
+    }else if(!isFirstAccordionOpen && isSecondAccordionOpen && isThirdAccordionOpen) {
+        formHeaderCtn.style.top = '897px';
+        formContent.style.top = '998px';
+        footer.style.top = '612px';
+        secondAccordionCtn.style.top = '415px';
+        thirdAccordionCtn.style.top = '635px';
+        accordionPanel.style.display = 'none';
         arrowUp.style.display = 'none';
         arrowDown.style.display = 'block';
+        secondAccordionPanel.style.display = 'block';
+        secondArrowUp.style.display = 'block';
+        secondArrowDown.style.display = 'none';
+        thirdAccordionPanel.style.display = 'block';
+        thirdArrowUp.style.display = 'block';
+        thirdArrowDown.style.display = 'none';
+    }else if(isFirstAccordionOpen && !isSecondAccordionOpen && isThirdAccordionOpen) {
+        formHeaderCtn.style.top = '967px';
+        formContent.style.top = '1070px';
+        footer.style.top = '695px';
+        secondAccordionCtn.style.top = '540px';
+        thirdAccordionCtn.style.top = '705px';
+        accordionPanel.style.display = 'block';
+        arrowUp.style.display = 'block';
+        arrowDown.style.display = 'none';
         secondAccordionPanel.style.display = 'none';
         secondArrowUp.style.display = 'none';
         secondArrowDown.style.display = 'block';
-        thirdAccordionPanel.style.display = 'none';
-        thirdArrowUp.style.display = 'none';
-        thirdArrowDown.style.display = 'block';
+        thirdAccordionPanel.style.display = 'block';
+        thirdArrowUp.style.display = 'block';
+        thirdArrowDown.style.display = 'none';
     }
-    
-
-
-
-
-    // if(isFirstAccordionOpen && isSecondAccordionOpen) {
-    //     accordionPanel.style.display = 'block';
-    //     arrowUp.style.display = 'block';
-    //     arrowDown.style.display = 'none';
-    //     secondAccordionPanel.style.display = 'block';
-    //     secondArrowUp.style.display = 'block';
-    //     secondArrowDown.style.display = 'none';
-    //     // formHeaderCtn.style.top = '566px';
-    //     // formContent.style.top = '600px';
-    //     // footer.style.top = '380px';
-    //     // secondAccordionCtn.style.top = '314px';
-
-    // } else if(isFirstAccordionOpen || isSecondAccordionOpen || isThirdAccordionOpen) {
-    //    if(isFirstAccordionOpen){
-    //         accordionPanel.style.display = 'block';
-    //         arrowUp.style.display = 'block';
-    //         arrowDown.style.display = 'none';
-    //         // secondAccordionCtn.style.top = '313px';
-    //         // formHeaderCtn.style.top = '508px';
-    //         // formContent.style.top = '540px';
-    //         // footer.style.top = '325px';
-    //         secondArrowUp.style.display = 'none';
-    //         secondAccordionPanel.style.display = 'none';
-    //         secondArrowDown.style.display = 'block';
-    //    } else{
-    //         secondAccordionPanel.style.display = 'block';
-    //         //  secondAccordionCtn.style.top = '186px';
-    //         accordionPanel.style.display = 'none';
-    //         secondArrowUp.style.display = 'block';
-    //         secondArrowDown.style.display = 'none';
-    //         // formHeaderCtn.style.top = '440px';
-    //         // formContent.style.top = '478px';
-    //         // footer.style.top = '273px';
-    //         accordionPanel.style.display = 'none';
-    //         arrowUp.style.display = 'none';
-    //         arrowDown.style.display = 'block';
-    //    }
-     
-    // } else {
-    //     accordionPanel.style.display = 'none';
-    //     arrowUp.style.display = 'none';
-    //     arrowDown.style.display = 'block';
-    //     secondAccordionPanel.style.display = 'none';
-    //     secondArrowUp.style.display = 'none';
-    //     secondArrowDown.style.display = 'block';
-    //     // formHeaderCtn.style.top = '380px';
-    //     // formContent.style.top = '412px';
-    //     // footer.style.top = '190px';
-    //     // secondAccordionCtn.style.top = '186px';
-    // }
 }
