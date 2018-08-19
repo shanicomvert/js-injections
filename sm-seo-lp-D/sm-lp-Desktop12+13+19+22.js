@@ -172,7 +172,6 @@ window.toggleAccordion = function(accordion) {
         thirdAccordionPanel.style.display = 'block';
         thirdArrowUp.style.display = 'block';
         thirdArrowDown.style.display = 'none';
-
     }else if(!isFirstAccordionOpen && !isSecondAccordionOpen && !isThirdAccordionOpen){
         formHeaderCtn.style.top = '775px';
         formContent.style.top = '883px';
