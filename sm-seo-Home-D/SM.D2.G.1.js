@@ -51,7 +51,7 @@ html = '<style>'+
 body.insertAdjacentHTML('afterend', html);
 
 div = document.getElementById('comp-jiboxgf4'); 
-html = '<a href="https://www.selectmedia.asia/join-as-a-publisher-selectmedia" target="_self" role="button" class="joinBtn g-transparent-a style-jl6b1ysplink"><span class="style-jl6b1ysplabel">J O I N   </span></a>'
+html = '<a href="https://www.selectmedia.asia/join-as-a-publisher-selectmedia" id="productBtn" target="_self" role="button" class="joinBtn g-transparent-a style-jl6b1ysplink"><span class="style-jl6b1ysplabel">J O I N   </span></a>'
 div.insertAdjacentHTML('afterend', html);
 div.style.top = '125px';
 
