@@ -11,7 +11,7 @@ div = document.getElementById('comp-jl6b1ypy');
 div.appendChild(img);
 
 div = document.getElementById('comp-jlam8bydinlineContentParent'); 
-var html = '<div style="position: absolute;top: 577px;font: normal normal bold 18px/22px poppins-extralight,poppins,sans-serif;line-height: 1.2em;margin-left: calc((100% - 312px) * 0.5);"><span style="margin-left: calc((100% - 314px) * 0.5);">&lt;it&apos;s fast and easy to add the code</span>,<br>and if you need anything, we are <a  href="" style="color: black;font-weight:bold;text-decoration: underline;">here</a> for you&gt;</div>'
+var html = '<div style="position: absolute;top: 483px;font: normal normal bold 18px/22px poppins-extralight,poppins,sans-serif;line-height: 1.2em;margin-left: calc((100% - 312px) * 0.5);"><span style="margin-left: calc((100% - 314px) * 0.5);">&lt;it&apos;s fast and easy to add the code</span>,<br>and if you need anything, we are <a  href="mailto:info@selectmedia.asia" style="color: black;font-weight:bold;text-decoration: underline;">here</a> for you&gt;</div>'
 div.insertAdjacentHTML('afterend', html);
 
 var body = document.body;
@@ -44,8 +44,8 @@ html = '<style>'+
 '    '+
 ' }'+
 '.secondJoinBtn{'+
-       'top: 515px;'+
-       'margin-left: calc((100% - 180px) * 0.5);'+
+       'top: 522px;'+
+       'margin-left: calc((100% - 23px) * 0.5);'+
 '}'+
 '</style>';
 body.insertAdjacentHTML('afterend', html);
