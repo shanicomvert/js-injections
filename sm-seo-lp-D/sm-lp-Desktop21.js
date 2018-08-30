@@ -1,15 +1,7 @@
-var elem = document.getElementById('accordion');
-elem.parentNode.removeChild(elem);
-elem = document.getElementById('joinus3steps');
-elem.parentNode.removeChild(elem);
-
 var link = document.createElement('link');
 link.rel = 'stylesheet';
 link.href = 'https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css';
 document.head.appendChild(link);
-
-var formHeaderCtn = document.getElementById("comp-jiudr4qr");
-formHeaderCtn.innerHTML = '<h3 class="font_3" style="font-size:21px;"><span style="font-size:21px;"><span class="color_15">please complete&nbsp;the following form and we’ll get back to you shortly.</span></span></h3>';
 
 var formSubmitBtn = document.getElementById("comp-jitywe7w");
 var html = '<div style="position: absolute; top: 576px; height: 42px; min-height: 32px; width: 400px; font-size:18px; left:270px">'+

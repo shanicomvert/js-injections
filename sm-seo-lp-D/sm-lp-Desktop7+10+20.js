@@ -1,9 +1,3 @@
-var elem = document.getElementById('accordion');
-elem.parentNode.removeChild(elem);
-elem = document.getElementById('joinus3steps');
-elem.parentNode.removeChild(elem);
-
-
 var contentCtn = document.getElementById('comp-jgy7fiqeinlineContentParent');
 contentCtn.style.backgroundImage = "url('https://cdn.comvert.io/vendor/Selectmedia/Images/map.png')";
 contentCtn.style.backgroundSize = 'cover';
