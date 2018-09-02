@@ -42,7 +42,7 @@
         }
         .backroundOpacityBlack{
             background-color: rgba(3, 2, 2, 0.68);
-            height: 300px;
+            height: 230px;
         }
         .backroundOpacityBlack2{
             background-color: rgba(3, 2, 2, 0);
@@ -55,26 +55,62 @@
     <div class="videosCtn">
         <div class="videoCtn video1" onmouseenter="onMouseEnterV1();" onmouseleave="onMouseLeaveV1();">
             <div class="backroundOpacityRed" id="V1">
-                <img id="comp-jiboxhgnimgimage" alt="video player" data-type="image" src="https://static.wixstatic.com/media/e1e28f_a45e1b0435944893b8fb06343703e361~mv2.png/v1/fill/w_259,h_454,al_c,lg_1,q_80/e1e28f_a45e1b0435944893b8fb06343703e361~mv2.webp" style="filter: url(&quot;#faded-comp-jiboxhgnimg&quot;); outline: transparent solid 1px; width: 131px; height: 165px; object-fit: cover;margin-left: 56px;">
-                <h3 class="font_3" style="text-align:center;color:white;">Video player</h3>
+                <div id="V1-Before">
+                    <img alt="video player" data-type="image" src="https://cdn.comvert.io/vendor/Selectmedia/Images/video1.png" style="outline: transparent solid 1px; width: 131px; height: 165px; object-fit: cover;margin-left: 56px;">
+                    <h3 style="text-align:center;color:white;">Video player</h3>
+                </div>
+                <div id="V1-After" style="display:none;">
+                    <img  alt="video player" data-type="image" src="https://cdn.comvert.io/vendor/Selectmedia/Images/video1.png" style="outline: transparent solid 1px; width: 100px;height: 96px;object-fit: cover;margin-left: 73px;">
+                    <h3 style="text-align:center;color:white; margin: 1px;">Video player</h3>
+                    <div style="padding: 7px;font-size: 15px;color: white;">
+                        <span style="letter-spacing:0em;">Certified by Google and other major partners, our one-tag Javascript implementation integrates with any tag to deliver all video ads formats across any device with VPAID and VAST support. </span>
+                    </div>  
+                </div>
             </div>
         </div>
-        <div class="videoCtn video2">
-            <div class="backroundOpacityBlack">
-                <img id="comp-jiboxhw5imgimage" alt="yield optimization" data-type="image" src="https://static.wixstatic.com/media/e1e28f_639d2be5d2d244ecbcbe9021697c739f~mv2.png/v1/fill/w_285,h_454,al_c,lg_1,q_80/e1e28f_639d2be5d2d244ecbcbe9021697c739f~mv2.webp" style="filter: url(&quot;#faded-comp-jiboxhw5img&quot;); outline: transparent solid 1px; width: 171px; height: 165px; object-fit: cover;margin-left: 40px;">
-                <h3 class="font_3" style="text-align:center;color:white;">Yield Optimization</h3>
+        <div class="videoCtn video2" onmouseenter="onMouseEnterV2();" onmouseleave="onMouseLeaveV2();">
+            <div class="backroundOpacityBlack" id="V2">
+                <div id="V2-Before">
+                    <img alt="yield optimization" data-type="image" src="https://cdn.comvert.io/vendor/Selectmedia/Images/video2.png" style="outline: transparent solid 1px; width: 171px; height: 165px; object-fit: cover;margin-left: 40px;">
+                    <h3  style="text-align:center;color:white;">Yield Optimization</h3>
+                </div>           
+                <div id="V2-After" style="display:none">
+                    <img alt="yield optimization" data-type="image" src="https://cdn.comvert.io/vendor/Selectmedia/Images/video2.png" style="outline: transparent solid 1px; width: 130px;height: 104px;object-fit: cover;margin-left: 58px;">
+                    <h3 style="text-align:center;color:white;margin: 1px;">Yield Optimization</h3>
+                    <div style="padding:2px;padding: 7px;font-size: 15px;color: white;">
+                        <span style="letter-spacing:0em;">Enhance revenue with our proprietary algorithms for optimizing campaign performance based on geography, device type, ad unit and audience profile data.</span>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="videoCtn video3" onmouseenter="onMouseEnterV3();" onmouseleave="onMouseLeaveV3();">
             <div class="backroundOpacityRed" id="V3">
-                <img id="comp-jiboxiykimgimage" alt="cdn" data-type="image" src="https://static.wixstatic.com/media/e1e28f_5622aef2a3fc4f2dab4c323ab7c0b475~mv2.png/v1/crop/x_36,y_0,w_323,h_307/fill/w_376,h_360,al_c,lg_1,q_80/e1e28f_5622aef2a3fc4f2dab4c323ab7c0b475~mv2.webp" style="filter: url(&quot;#faded-comp-jiboxiykimg&quot;); outline: transparent solid 1px;width: 170px;height: 150px;object-fit: cover;margin-left: 40px;">
-                <h3 class="font_3" style="text-align:center;margin-top: 32px;color:white;">CDN</h3>
+                <div id="V3-Before" >
+                    <img alt="cdn" data-type="image" src="https://cdn.comvert.io/vendor/Selectmedia/Images/video3.png" style="outline: transparent solid 1px;width: 170px;height: 150px;object-fit: cover;margin-left: 40px;">
+                    <h3 style="text-align:center;margin-top: 32px;color:white;">CDN</h3>
+                </div>
+                <div id="V3-After" style="display:none;">
+                    <img alt="cdn" data-type="image" src="https://cdn.comvert.io/vendor/Selectmedia/Images/video3.png" style="outline: transparent solid 1px;    width: 100px;height: 85px;object-fit: cover;margin-left: 76px;">
+                    <h3 style="text-align:center;margin: 7px;color:white;">CDN</h3>
+                    <div style="padding:2px;padding: 7px;font-size: 15px;color: white;">
+                        <span style="letter-spacing:0em;">Our partnership with Google Cloud Platform ensures your video content is hosted and delivered efficiently on a scalable, reliable and robust global infrastructure. &nbsp;</span>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="videoCtn video4">
-            <div class="backroundOpacityBlack2">
-                <img id="comp-jiboxjl3imgimage" alt="ad servr" data-type="image" src="https://static.wixstatic.com/media/e1e28f_c0a46e9ff342480eb2d5702e91ffbca2~mv2.png/v1/crop/x_33,y_69,w_315,h_245/fill/w_360,h_280,al_c,lg_1,q_80/e1e28f_c0a46e9ff342480eb2d5702e91ffbca2~mv2.webp" style="margin-top: 20px;filter: url(&quot;#faded-comp-jiboxjl3img&quot;); outline: transparent solid 1px; width: 180px; height: 140px; object-fit: cover;margin-left: 33px;">
-                <h3 class="font_3" style="text-align:center;margin-top: 20px;color:white;">Ad server</h3>
+        <div class="videoCtn video4" onmouseenter="onMouseEnterV4();" onmouseleave="onMouseLeaveV4();">
+            <div class="backroundOpacityBlack2" id="V4" >
+                <div id="V4-Before" >
+                    <img  alt="ad servr" data-type="image" src="https://cdn.comvert.io/vendor/Selectmedia/Images/video4.png" style="margin-top: 20px; outline: transparent solid 1px; width: 180px; height: 140px; object-fit: cover;margin-left: 33px;">
+                    <h3  style="text-align:center;margin-top: 20px;color:white;">Ad server</h3>
+                </div>
+                <div id="V4-After" style="display:none">
+                    <img  alt="ad servr" data-type="image" src="https://cdn.comvert.io/vendor/Selectmedia/Images/video4.png" style="margin-top: 20px; outline: transparent solid 1px;width: 119px;height: 70px;object-fit: cover; margin-left: 61px;">
+                    <h3  style="text-align:center;margin: 7px;color:white;">Ad server</h3>
+                    <div style="padding:2px;padding: 7px;font-size: 15px;color: white;">
+                        <span style="letter-spacing:0em;">Host, manage and deliver video demand across every channel with a single tag. Comprehensive analytics delivers real-time reporting at a page and individual placement level.</span>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
